@@ -8,7 +8,7 @@ const REQUIRE_AUTH = true
 const AUTH_TOKEN = 'an-example-token'
 
 app.get('/', function (req, res) {
-  res.send('Use the /webhook endpoint.')
+  res.send('Useasdf the /webhook endpoint.')
 })
 app.get('/webhook', function (req, res) {
   res.send('You must POST your request')
